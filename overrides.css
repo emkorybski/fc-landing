@@ -8,18 +8,43 @@ body {
 }
 
 .jumbotron {
-    margin: 4% 0;
+    margin: 1% 0;
+    margin-top: 7%;
 }
 
-#btns_left, #btns_right, #img_mid {
-    width: 30%;
-    height: 30%;
-    display: inline-block;
+#btns_left,
+#btns_right,
+#img_mid {
+    width: 32%;
+    height: auto;
+    display: table-cell;
+    text-align: center;
+    /*border: 1px solid #fff;*/
+    vertical-align: middle;
+}
+
+#img_mid {
+    text-align: left;
+}
+
+
+#btns_left a,
+#btns_right a {
+    width: 80%;
+    height: 50px;
+    line-height: 25px;
+    display: block;
+    font-size: 90%;
+    margin-top: 15px;
+}
+
+#btns_right a#sportsbook {
+    font-size: smaller;
 }
 
 .footer {
 	min-height: 350px;
-	background: #000;
+	background: #333;
     position: absolute;
     top:560px;
     bottom: 0;
@@ -60,7 +85,7 @@ body {
     display: inline-block;
     height: 50px;
     width: 173px;
-    background:#fff url(fc_softswiss.png)no-repeat center center;
+    background: #fff url(fc_softswiss.png)no-repeat center center;
 }
 
 .footer #btc-link:hover, .footer #softswiss:hover {
