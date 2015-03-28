@@ -1,16 +1,15 @@
 body {
 	color: #ececec;
-	/*background-image:  url(clouds_bg.png);*/
-    background: #000;
-	/*background-size: 100%;
+	background-image: url(fc_nu_hp_bg.jpg);
+    background-color: #000;
+	background-size: 100%;
 	background-attachment:  fixed;
-	background-position: center center;*/
+	background-position: center center;
     font-family: "Open Sans", sans-serif;
 }
 
 .container.top {
     text-align: center;
-    background: url(assets/img/777_2.png)no-repeat right center;
     width: 100%
 }
 
@@ -27,7 +26,6 @@ body {
 
 #btns_left {
     width: 100%;
-    background: url(assets/img/777_1.png)no-repeat left center;
     height: auto;
     text-align: center;
     /*border: 1px solid #fff;*/
@@ -35,8 +33,8 @@ body {
 }
 
 #btns_left a {
-    width: 84%;
-    margin-left: 7%;
+    width: 70%;
+    margin-left: 15%;
     height: auto;
     line-height: 25px;
     display: block;
@@ -51,19 +49,26 @@ body {
 
 .footer {
 	min-height: 350px;
-	background: #333;
+	background: transparent;
     position: absolute;
-    top:560px;
+    top:500px;
     bottom: 0;
     width: 100%;
 }
+
+.footer .container div {
+    background: rgba(189,54,47,0.7);
+    padding: 12px;
+    border-radius: 4px;
+}
+
 .footer h4 {
     color: #fff
 } 
 .footer p {
-    color: #999
+    color: #fff
 }
-.footer .cright {
+.footer .container .cright {
     border-top: 1px solid #ccc;
     border-radius: 0;
     background: #efefef;
@@ -76,7 +81,7 @@ body {
     text-align: center;
     width: 100%;
     height: 60px;
-    border-top: 1px solid #5bb75b
+    border-top: 1px solid #000
 
 }
 
@@ -98,6 +103,8 @@ body {
 .footer #btc-link:hover, .footer #softswiss:hover {
     opacity: 0.7;
 }
+
+
 
 .footer .container img {
     vertical-align: top;
